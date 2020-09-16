@@ -124,6 +124,11 @@ list.append(34)
 list.printList()
 ```
 
+#### Write a function to remove the last element from a linked list 
+
+```swift 
+```
+
 ## Challenges 
 
 #### Challenge 1 
@@ -131,6 +136,8 @@ list.printList()
 [LeetCode - Middle of a Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 
+#### Challenge 2 
 
+[LeetCode - Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 
 
