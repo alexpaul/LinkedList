@@ -1,10 +1,6 @@
-# LinkedList
+# Node and Linked List
 
-A linked list is a series of connected nodes. A node is an abstract data structure. 
-
-Types of a linked list: 
-* singly linked list 
-* doubly linked list 
+A node is an abstract data structure that consists of a value and next pointer property. 
 
 Node class 
 
@@ -32,7 +28,7 @@ func printNodeValues(node: Node?) {
 printNodeValues(node: node1) // 1 2 3
 ```
 
-## Write a function to reverse a linked list
+## Write a function to reverse values in a linked node (list) 
 
 ```swift 
 func reverseList(_ node: Node?) -> Node? {
@@ -50,3 +46,27 @@ func reverseList(_ node: Node?) -> Node? {
 
 printNodeValues(node: reverseList(node1)) // 3 2 1
 ```
+
+## Linked List 
+
+A linked list is a series of connected nodes.  
+
+Types of a linked list: 
+* singly linked list 
+* doubly linked list 
+
+A linked list has a head and tail property. 
+
+```swift 
+class LinkedList {
+  private var head: Node?
+  private var tail: Node?
+  
+  var isEmpty: Bool {
+    return head == nil
+  }
+}
+```
+
+
+
