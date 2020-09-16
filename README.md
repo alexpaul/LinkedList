@@ -1,5 +1,7 @@
 # Node and Linked List
 
+## Node 
+
 A node is an abstract data structure that consists of a value and next pointer property. 
 
 Node class 
@@ -14,7 +16,7 @@ class Node {
 }
 ```
 
-## Write a function to print all the values in a linked node (list)
+#### Write a function to print all the values in a linked node (list)
 
 ```swift 
 func printNodeValues(node: Node?) {
@@ -28,7 +30,7 @@ func printNodeValues(node: Node?) {
 printNodeValues(node: node1) // 1 2 3
 ```
 
-## Write a function to reverse values in a linked node (list) 
+#### Write a function to reverse values in a linked node (list) 
 
 ```swift 
 func reverseList(_ node: Node?) -> Node? {
