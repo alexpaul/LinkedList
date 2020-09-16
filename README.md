@@ -59,6 +59,8 @@ Types of a linked list:
 
 A linked list has a head and tail property. 
 
+#### Define a Linked List
+
 ```swift 
 class LinkedList {
   private var head: Node?
@@ -69,6 +71,60 @@ class LinkedList {
   }
 }
 ```
+
+#### Write a function to add a value to a linked list  
+
+```swift 
+extension LinkedList {
+  mutating func append(_ value: Int) {
+    // 1
+    // create a new node with the value
+    let newNode = Node(value)
+    // 2
+    // if the list is empty create a new node and add to the head and tail
+    if isEmpty {
+      head = newNode
+      tail = newNode
+      return
+    }
+    // if there are more values in the list, we need to have the (last last node point to the new node)
+    guard let lastNode = tail else {
+      return
+    }
+    lastNode.next = newNode
+    tail = newNode
+  }
+}
+
+var list = LinkedList() 
+list.append(5)
+list.append(12)
+list.append(0)
+list.append(34)
+```
+
+#### Write a function to print the values of a linked list
+
+```swift 
+extension LinkedList {
+  func printList() {
+    var head = self.head
+    while let currentNode = head {
+      print(currentNode.value)
+      head = currentNode.next
+    }
+  }
+}
+var list = LinkedList() 
+list.append(5)
+list.append(12)
+list.append(0)
+list.append(34)
+
+list.printList()
+```
+
+
 
 
 
