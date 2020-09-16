@@ -124,6 +124,12 @@ list.append(34)
 list.printList()
 ```
 
+## Challenges 
+
+#### Challenge 1 
+
+[LeetCode - Middle of a Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+
 
 
 
