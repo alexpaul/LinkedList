@@ -62,7 +62,7 @@ A linked list has a head and tail property.
 #### Define a Linked List
 
 ```swift 
-class LinkedList {
+struct LinkedList {
   private var head: Node?
   private var tail: Node?
   
