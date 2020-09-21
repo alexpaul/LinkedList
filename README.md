@@ -124,10 +124,17 @@ list.append(34)
 list.printList()
 ```
 
-#### Write a function to remove the last element from a linked list 
+#### Challenge - Write a function to remove the last element from a linked list 
 
+<details> 
+  <summary>Solution</summary> 
+
+Sorry was hoping you would give it a shot 🥳
+  
 ```swift 
 ```
+  
+</details> 
 
 ## Challenges 
 
