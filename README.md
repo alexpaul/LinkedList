@@ -22,8 +22,8 @@ class Node {
 func printNodeValues(node: Node?) {
   var node = node
   while let currentNode = node {
-    print(currentNode.value)
-    node = currentNode.next
+    print(currentNode.value) 
+    node = currentNode.next // moving to the next node using the `next` pointer
   }
 }
 
